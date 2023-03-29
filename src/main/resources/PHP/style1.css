@@ -1,0 +1,178 @@
+body {
+    background-color: #ffffff(0, 0%, 98%);
+    font-family: 'Andika New Basic', serif sans-serif;
+    
+  }
+  
+  .form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    width: 50%;
+    margin: 100px auto;
+  }
+  h1 {
+      font-family: 'Andika New Basic', sans-serif;
+      color: #3e8e41;
+      background-color: #f2f2f2;
+      text-align: center;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  h4{
+    margin: 0;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 20px;
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  .message {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #3e8e41;
+    text-align: center;
+  }
+  .menu {
+    height: 45px;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    border: 8px solid #4CAF50;
+    border-radius: 20px;
+  }
+  
+  .menu ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .menu li {
+    float: left;
+    font-size:large;
+  }
+  
+  .menu li.right {
+    float: right;
+  }
+  
+  .menu li a {
+    align-items: center;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .menu li a:hover {
+    background-color: #4CAF50;
+  }
+  
+      
+    .profile {
+      display: none;
+    }
+    
+    .profile.show {
+      display: block;
+    }
+    
+    .profile-section {
+      margin-top: 20px;
+    }
+    
+    .profile-section h3 {
+      margin: 0;
+    }
+    
+    .profile-details p {
+      margin: 0;
+    }
+    
+    .profile-details img {
+      max-width: 100%;
+    }
+    .profile-container {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .sections {
+      font-size: large;
+      margin-top: 30px;
+      width: 50%;
+    }
+    
+
+    
+    
+    #user-info {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    p.role {
+        margin: 0;
+      }
+      h2.name{
+        margin:0;
+      }
+      .awatar {
+        width: 300px;
+        height: 200px;
+      }
+    
+    .buttons{
+        margin-bottom: 10px;
+    }
+    
+    
